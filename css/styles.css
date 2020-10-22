@@ -17,6 +17,22 @@ h3 {
   transition-duration: 0.5s;
 }
 
-#output {
+/* #output {
+  display: none;
+} */
+
+.nick {
+  display: none;
+}
+
+.jane {
+  display: none;
+}
+
+.ada  {
+  display: none;
+}
+
+.bear {
   display: none;
 }
