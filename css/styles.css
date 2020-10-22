@@ -1,7 +1,22 @@
-.btn {
-  display: block;
+h3 {
+  background-color: #008CBA;
+  background-size: contain;
+  text-align: center;
+  text: bolder;
+  text-decoration-line: underline;
 }
 
-#celeb-dating {
+.btn {
+  display: block;
+  background-color: #008CBA;
+  font-size: 16px;
+  padding: 12px 28px;
+  border-radius: 50%; 
+  border: 2px solid black;
+  color: white;
+  transition-duration: 0.5s;
+}
+
+#output {
   display: none;
 }

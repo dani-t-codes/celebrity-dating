@@ -14,14 +14,49 @@
     <p> Fill out the following survey to get connected to your dream celebrity date! </p>
 
     <form id="celeb-dating">
-      <label for="age">Enter your age:</label>
-      <input id="age" type="text">
-      <div class="form-group">
-        <label for="born">Date of birth:</label>
-        <input id="born" class="form-control" type="date">
-      </div>
-        <label for="favorite-color">Enter your favorite color:</label>
-        <input id="favorite-color" type="text">
+      <label for="animal">What's your favorite animal?</label>
+      <select id="animal">
+        <option value="cat">Cat</option>
+        <option value="wolf">Wolf</option>
+        <option value="monkey"> Monkey</option>
+        <option value="parrot">Parrot</option>
+      </select>  
+      <p></p>
+      <label for="spare-time">In my spare time I like too:</label>
+      <select id="spare-time">
+        <option value="hunt">Go outside to hunt and gather my own food</option>
+        <option value="read">Reading the hottest new romance novel</option>
+        <option value="shelter">Volunteer at my local animal shelter</option>
+        <option value="code">Learn a new coding language</option>
+      </select>
+      <p></p>
+      <label for="million">If I had a million dollars I would:</label>
+      <select id="million">
+        <option value="holiday">Go on a romantic holiday with my lover</option>
+        <option value="wildlife">Start a wildlife sanctuary</option>
+        <option value="trek">Trek around the world</option>
+        <option value="school">Start a coding school</option>
+      </select>
+
+      <p></p>
+      <button type="submit" class="btn">Find your match!</button>
+    </form>
+
+    <div id="output">
+      <p>You would match best with <span id="nick">Nicholas Sparks</span></p>
+      <p>You would match best with <span id="bear">Bear Grylls</span></p>
+      <p>You would match best with <span id="ada">Ada Lovelace</span></p>
+      <p>You would match best with <span id="jane">Jane Goodall</span></p>
+    </div>
+  </div>
+  </body>
+  </html>
+
+
+
+
+
+
 
 <!----      <label for="fave-color">Favorite Color</label>
       <div class="form-group">
@@ -33,11 +68,7 @@
         <option value="opt2-for-var2">Opt 2 for Var2</option>
       </select> 
 
-      <div class="radio">
-        <label>
-          <input type="radio" name="flavor" value="chocolate" checked>
-          Male
-        </label>
+
       </div>
       <div class="radio">
         <label>
@@ -52,12 +83,4 @@
         </label>
       </div>
     -->
-      <button type="submit" class="btn">Calculate output</button>
-    </form>
-
-    <div id="output">
-      <p>Descriptive info with <span id="info-from-options"></span> blah blah blah. </p>
-    </div>
-  </div>
-  </body>
-  </html>
+     
