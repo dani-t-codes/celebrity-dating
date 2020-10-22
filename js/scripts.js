@@ -1,9 +1,11 @@
 //business logic 
 $(document).ready(function() {
-  $("#animal").submit(fuction(event)) 
-});
+  $("form#celeb-dating").submit(fuction(event)) {
+    // const animal ??
+    // const spare-time ??
+    const million = $("select#million").val(); 
 //user interface
-  const million = $("select#million").val(); {
+    //let output = 'nick'
     if (million === "Go on a romantic holiday with my lover") {
       $('#nick').fadeIn();
     } else if (million === "Start a wildlife sanctuary") { 
@@ -13,9 +15,13 @@ $(document).ready(function() {
     } else (million === "Start a coding school") {
       $('#ada').fadeIn ();
     } 
-    event.preventDefault();
-  });
 
+      //$(#bear).text(quote);
+      //$(#output).show();
+
+    event.preventDefault();
+  }); 
+};
 
 //const dob = $("#born").val();
 // const favoriteColor = $("#color").val();
