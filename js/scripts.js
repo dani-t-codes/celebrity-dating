@@ -1,27 +1,32 @@
 //business logic 
 $(document).ready(function() {
-  $("form#celeb-dating").submit(fuction(event)) {
+  $("form#celeb-dating").submit(function(event) {
+    event.preventDefault();
+
     // const animal ??
     // const spare-time ??
+
     const million = $("select#million").val(); 
 //user interface
-    //let output = 'nick'
-    if (million === "Go on a romantic holiday with my lover") {
+//let output = 'nick'
+
+    if (million === "holiday") {
       $('#nick').fadeIn();
-    } else if (million === "Start a wildlife sanctuary") { 
+    } else if (million === "wildlife") { 
       $('#jane').fadeIn();
-    } else if (million === "Trek around the world") {
+    } else if (million === "trek") {
       $('#bear').fadeIn();
-    } else (million === "Start a coding school") {
+    } else if (million === "school") {
       $('#ada').fadeIn ();
     } 
 
       //$(#bear).text(quote);
       //$(#output).show();
 
-    event.preventDefault();
+//want V it up top to occur 1st
+//    event.preventDefault();
   }); 
-};
+});
 
 //const dob = $("#born").val();
 // const favoriteColor = $("#color").val();
